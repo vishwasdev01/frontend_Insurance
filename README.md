@@ -1,13 +1,24 @@
-# React + Vite
+# Frontend – Insurance Plan Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Insurance Plan Calculator** project.  
+It calculates the best insurance plan based on the **user's age** and the **risk level** they are willing to take.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- **React.js** – UI framework
+- **Tailwind CSS** – Styling
+- **Axios** – API fetching
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# frontend_Insurance
+## 🛠️ Local Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vishwasdev01/frontend_Insurance.git
+   cd frontend_Insurance
+   npm i
+   npm run dev
+   
+2. Api End Point : http://localhost:5173
